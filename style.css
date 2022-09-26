@@ -13,6 +13,7 @@ body{
 }
 
 .board{
+    margin-top: 3rem;
     border-width: medium;
     border-style: solid;
     border-color: green;
@@ -49,8 +50,14 @@ body{
 
 .winning-message.show {
     display: flex;
-<<<<<<< HEAD
 }
-=======
+
+.links{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
 }
->>>>>>> 5cbca9d654f2d877d1846729bad7c428d378f764
+
+
+
